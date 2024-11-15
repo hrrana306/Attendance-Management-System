@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System - Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="bgvideo">
+        <source src="VIDEO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <h4>Welcome to the Admin dashboard</h4>
+        <button onclick="viewAllAttendance()">View All Students</button>
+        <button id="addAttendanceBtn">Add Attendance</button>
+        <button id="editAttendanceBtn">Edit Attendance</button>
+        <button id="deleteAttendanceBtn">Delete Attendance</button>
+        <button id="generateReportBtn">Generate Report</button>
+        <button id="approveLeaveBtn">Approve Leave</button>
+        <button id="generateSystemReportBtn">Generate System Report</button>
+        <button id="assignGradeBtn">Assign Grade</button>
+        <div id="admin-report"></div>
+        <div id="attendance-log"></div>
+    </div>
+
+    <button onclick="history.back()">Go Back</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System - User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="bgvideo">
+        <source src="VIDEO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <h1>User Dashboard</h1>
+        <h4>Welcome to the user dashboard</h4>
+        <button onclick="markAttendance()">Mark Attendance</button>
+        <button onclick="viewAttendance()">View Attendance</button>
+        <button onclick="requestLeave()">Request Leave</button>
+
+        <div id="attendance-log"></div>
+    </div>
+
+    <button onclick="history.back()">Go Back</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
